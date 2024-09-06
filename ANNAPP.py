@@ -5,7 +5,7 @@ from PIL import Image
 from sklearn.preprocessing import StandardScaler
 
 # Load the trained model (ANN)
-model = tf.keras.models.load_model("ann_model.h5")
+model = tf.keras.models.load_model("ann_model.pkl")
 
 # Page title
 st.title("Digit Recognition using ANN")
